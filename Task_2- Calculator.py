@@ -1,9 +1,6 @@
 from tkinter import *
 
 def calculate(operator):
-    """
-    Performs the selected arithmetic operation and displays the result.
-    """
     try:
         num1 = float(num1_entry.get())
         num2 = float(num2_entry.get())
